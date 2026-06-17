@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background: #222;
+    padding: 40px;
+    border-radius: 10px;
+    width: 450px;
+}
+
+h1 {
+    color: red;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    color: white;
+    word-break: break-all;
+}
+
+#result a {
+    color: cyan;
+}
